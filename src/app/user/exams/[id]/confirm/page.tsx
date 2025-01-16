@@ -109,7 +109,7 @@ const Guidence = () => {
                             Cancel
                         </Button>
                     </Link>
-                    <Button className='disabled:cursor-not-allowed' disabled={confirm} onClick={()=>router.push(`/user/exams/${params.id}/take`)}>
+                    <Button className='disabled:cursor-not-allowed' disabled={confirm} onClick={()=>router.push(`/user/exams/${params.id}/take#`)}>
                         Start exam
                     </Button>
                 </div>
